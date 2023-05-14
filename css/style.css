@@ -22,29 +22,29 @@ header{
     left: 0;
     width: 100%;
 }
-header image{
-    width: 80px;
+#header__imagen{
+    width: 56vh;
 }
 
 header ul{
     list-style-type: none;
     text-decoration: none;
     margin: 0;
-    padding: 0px 100px;
+    padding: 0px 16vh;
     display: flex;
     flex-direction: row;
-    
+
 }
 header ul li{
-    padding: 0px 12px;
+    padding: 0px 2vh;
     color: aqua;
 }
 
-#hero{
-    padding: 100px 0px;
+#main__imagen{
+    padding: 16vh 0px;
     background-image: url(../imagenes/banner.jpg);
     width: 100%;
-    height: 500px;
+    height: 96vh;
     background-size: cover;
     background-repeat: no-repeat;
     display: flex;
@@ -53,25 +53,25 @@ header ul li{
     justify-content: center;
     align-items: flex-start;
 }
-#hero h1{
-    font-size: 30px;
+#main__imagen h1{
+    font-size: 4vh;
 }
 
 
 .cuadro-principal{
-    margin: 5px;
+    margin: 1vh;
     display: flex;
     flex-direction: column;
-    width: 500px;
-    height: 400px;
+    width: 80vh;
+    height: 64vh;
 }
 .cuadro-principal2{
-    margin: 5px;
+    margin: 1vh;
     display: flex;
     flex-direction: column;
-    width: 1200px;
-    height: 200px;
-    align-items: center;  
+    width: 192vh;
+    height: 32vh;
+    align-items: center;
 }
 
 .cuadro-principal ul{
@@ -94,6 +94,7 @@ header ul li{
 #boton:active{
     background-color: gray;
 }
+
 #segundaParte{
     background-image: url(../imagenes/banner2.jpg);
     width: 100%;
@@ -112,7 +113,7 @@ header ul li{
     flex-direction: column;
     width: 1200px;
     height: 200px;
-    align-items: center;  
+    align-items: center;
 }
 .actividades{
     display: flex;
@@ -168,3 +169,34 @@ footer ul li{
     padding: 0px 100px;
     color: aqua;
 }
+
+
+
+/* @media (max-width : 576px){
+    no me sale nadaaaaa
+    *{
+        font-size: small;
+    }
+    header{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        justify-content: center;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    #header__imagen{
+        width: 30vh;
+    }
+
+    header ul{
+        padding: 0px 0vh;
+        font-size: xx-small;
+        flex-direction: column;
+        align-items: center;
+    }
+
+
+
+
+} */
