@@ -7,63 +7,109 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Poppins:wght@400;500&display=swap" rel="stylesheet">
     <link rel="shortcut icon" href="./imagenes/3659390.png" type="image/x-icon">
-    <!-- <link rel="stylesheet" href="./css/bootstrap.min.css"> -->
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
     <link rel="stylesheet" href="./css/style.css">
     <title>Crossfit Villa Luro</title>
 </head>
 <body>
     <header>
-        <img src="./imagenes/logo.jpg" alt="logo" id="header__imagen">
-        <ul>
-            <li><a href="./index.html">Inicio</a></li>
-            <li><a href="./paginas/actividades.html">Actividades </a></li>
-            <li><a href="./paginas/horarios.html">Horarios</a></li>
-            <li><a href="./paginas/planes.html">Planes</a></li>
-            <li><a href="./paginas/contacto.html">Contacto</a></li>
-        </ul>
+
+        <nav class="navbar navbar-expand-lg  bg-dark" data-bs-theme="dark" >
+            <div class="container-fluid">
+                <a class="navbar-brand">
+                    <img class="img-fluid" src="./imagenes/logo.jpg" alt="logo">
+                </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                  <a class="nav-link active" aria-current="page" href="./index.html">Inicio</a>
+                  <a class="nav-link" href="./paginas/actividades.html">Actividades </a>
+                  <a class="nav-link" href="./paginas/horarios.html">Horarios</a>
+                  <a class="nav-link" href="./paginas/contacto.html">Contacto</a>
+                </div>
+              </div>
+            </div>
+          </nav>
+
     </header>
     <main>
-        <section id="main__imagen">
-            <div class="cuadro-principal">
-                <h1>Viví la experiencia de entrenar en Crossfit Villa Luro</h1>
-                <h4>Entrená con nosotros</h4>
-                <ul>
-                    <li>Profesores especializados</li>
-                    <li>App para la reserva de Clases</li>
-                    <li>Salón de maquinas y elementos de última tecnología</li>
-                    <li>Horarios Disponibles</li>
-                </ul>
-            </div>
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/Bf9eaHc9TQo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-            <nav id="link">
-                <p>Comenzá a vivir la experiencia de entrenar en crossfit Villa Luro</p>
-                <button id="boton"> <a href="https://wa.link/97pex7"> QUIERO SABER MAS <img src="./imagenes/4102606_applications_media_social_whatsapp_icon.png"  width="30px"></a></button>
-            </nav>
-        </section>
 
-        <section id="segundaParte">
-            <p>Tipos de Actividades</p>
-            <div class="actividades">
-                <div class="activi">
-                    <a href="./paginas/planes.html"><p>Crossfit</p><img src="./imagenes/cross.jpg" alt="" width="100%"></a>
-                </div>
-                <div class="activi">
-                    <a href="./paginas/planes.html"><p>Funcional</p><img src="./imagenes/funcional.jpg" alt="" width="100%"></a>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-12">
+
+                    <section id="main__imagen">
+                        <div class="cuadro-principal">
+                            <h1>Viví la experiencia de entrenar en Crossfit Villa Luro</h1>
+                            <h4>Entrená con nosotros</h4>
+                            <ul>
+                                <li>Profesores especializados</li>
+                                <li>App para la reserva de Clases</li>
+                                <li>Salón de maquinas y elementos de última tecnología</li>
+                                <li>Horarios Disponibles</li>
+                            </ul>
+                        </div>
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/Bf9eaHc9TQo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                        <div id="link">
+                            <p>Comenzá a vivir la experiencia de entrenar en crossfit Villa Luro</p>
+                            <button id="boton"> <a href="https://wa.link/97pex7"> QUIERO SABER MAS <img src="./imagenes/4102606_applications_media_social_whatsapp_icon.png"  width="30px"></a></button>
+                        </div>
+                    </section>
+
                 </div>
             </div>
-            <p id="opiniones">Opiniones de alumnos sobre Crossfit Villa luro</p>
-    
-        </section>
+        </div>
+
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-12">
+                    <section id="segundaParte">
+                        <p>Tipos de Actividades</p>
+                        <div class="actividades">
+
+                            <div class="row">
+                                <div class="col-12 col-xl-6">
+                                    <div class="activi">
+                                        <a href="./paginas/planes.html"><p>Crossfit</p><img class="img-fluid" src="./imagenes/cross.jpg" alt="" width="100%"></a>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-xl-6">  
+                                    <div class="activi">
+                                        <a href="./paginas/planes.html"><p>Funcional</p><img class="img-fluid" src="./imagenes/funcional.jpg" alt="" width="100%"></a>
+                                    </div>
+                                </div>  
+                            </div>
+
+                            
+                        </div>
+                        <p id="opiniones">Opiniones de alumnos sobre Crossfit Villa luro</p>
+                    </section>
+                </div>    
+            </div>
+        </div>    
         
     </main>
     <footer>
-        <p>Animate veni a entrenar en Crossfit Villa Luro</p>
-        <ul>
-            <li><a href="./paginas/actividades.html">Actividades</a></li>
-            <li><a href="./paginas/horarios.html">Horarios</a></li>
-            <li><a href="./paginas/planes.html">Planes</a></li>
-            <li><a href="./paginas/contacto.html">Contacto</a></li>
-        </ul>
+        
+        <div class="conteiner-fluid">
+            <div class="row">
+                <div class="col-12">
+                    <p>Animate veni a entrenar en Crossfit Villa Luro</p>
+                </div>
+                <div class="col-12">
+                    <nav>
+                        <ul>
+                            <li><a href="./paginas/actividades.html">Actividades</a></li>
+                            <li><a href="./paginas/horarios.html">Horarios</a></li>
+                            <li><a href="./paginas/planes.html">Planes</a></li>
+                            <li><a href="./paginas/contacto.html">Contacto</a></li>
+                        </ul>
+                    </nav>
+                </div> 
+            </div>
+        </div>
     </footer>
 
     <script src="./js/bootstrap.min.js"></script>
