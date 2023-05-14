@@ -13,16 +13,26 @@
 </head>
 <body>
     <header>
-        <img src="../imagenes/logo.jpg" alt="logo">
-        <nav>
-            <ul>
-                <li><a href="../index.html">Inicio</a></li>
-                <li><a href="../paginas/actividades.html">Actividades </a></li>
-                <li><a href="../paginas/horarios.html">Horarios</a></li>
-                <li><a href="../paginas/planes.html">Planes</a></li>
-                <li><a href="../paginas/contacto.html">Contacto</a></li>
-            </ul>
-        </nav>
+
+        <nav class="navbar navbar-expand-lg  bg-dark" data-bs-theme="dark" >
+            <div class="container-fluid">
+                <a class="navbar-brand">
+                    <img class="img-fluid" src="../imagenes/logo.jpg" alt="logo">
+                </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                  <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
+                  <a class="nav-link" href="../paginas/actividades.html">Actividades </a>
+                  <a class="nav-link" href="../paginas/horarios.html">Horarios</a>
+                  <a class="nav-link" href="../paginas/contacto.html">Contacto</a>
+                </div>
+              </div>
+            </div>
+          </nav>
+
     </header>
     <main>
         <section id="main__imagen">
@@ -59,15 +69,32 @@
 
     </main>
     <footer>
-        <p>Animate veni a entrenar en Crossfit Villa Luro</p>
-        <nav>
-            <ul>
-                <li><a href="../paginas/actividades.html">Actividades</a></li>
-                <li><a href="../paginas/horarios.html">Horarios</a></li>
-                <li><a href="../paginas/planes.html">Planes</a></li>
-                <li><a href="../paginas/contacto.html">Contacto</a></li>
-            </ul>
-        </nav>
+        <div class="conteiner-fluid">
+            <div class="row">
+                <div class="col-12 footer__texto">
+                    <p>Animate veni a entrenar en Crossfit Villa Luro</p>
+                </div>
+                
+                    <nav>
+                        <ul>
+                            <div class="col-12 col-xl-4">
+                                <li><a href="../paginas/actividades.html">Actividades</a></li>
+                            </div>
+                            <div class="col-12 col-xl-4">
+                                <li><a href="../paginas/horarios.html">Horarios</a></li>
+                            </div>
+                            <div class="col-12 col-xl-4">
+                                <li><a href="../paginas/planes.html">Planes</a></li>
+                            </div>
+                            <div class="col-12 col-xl-4">
+                                <li><a href="../paginas/contacto.html">Contacto</a></li>
+                            </div>
+                            
+                        </ul>
+                    </nav>
+                
+            </div>
+        </div>
     </footer>
     <script src="../js/bootstrap.min.js"></script>
 </body>
