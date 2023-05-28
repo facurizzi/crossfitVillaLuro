@@ -1,20 +1,16 @@
 
 //Base
 @import './base/body.scss';
+@import './base/mixins.scss';
 
 //Basics
 @import './basics/colores';
 @import './basics/tipografia';
 
-
-
-
 //Layout
 @import './layout/header.scss';
 @import './layout/main.scss';
 @import './layout/footer.scss';
-
-
 
 //Base
 @import './base/mediaqueries.scss';

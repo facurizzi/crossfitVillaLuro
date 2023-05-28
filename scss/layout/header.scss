@@ -23,7 +23,7 @@ header{
 
         li{
             padding: 0px 2vh;
-            color: aqua;
+            color: map-get($colores, primario);
         }
 
     }
@@ -38,5 +38,5 @@ header{
     width: 100%;
     display: flex;
     justify-content: end;
-    color: #26f0f1;
+    color: map-get($colores, primario);
 }

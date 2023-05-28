@@ -54,7 +54,7 @@ header ul li {
   width: 100%;
   display: flex;
   justify-content: end;
-  color: #26f0f1;
+  color: aqua;
 }
 
 main {
@@ -72,8 +72,8 @@ main {
   background-repeat: no-repeat;
   display: flex;
   flex-direction: row;
-  flex-wrap: wrap;
   justify-content: center;
+  flex-wrap: wrap;
   align-items: flex-start;
 }
 .main__imagen h1 {
