@@ -13,7 +13,11 @@ footer{
         text-decoration: none;
         @include flex-row;
         li{
-            color: aqua;
+            a{
+                color: map-get($colores , primario );
+                text-shadow: black;
+            }
+            
         }
     }
 
