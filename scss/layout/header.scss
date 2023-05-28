@@ -2,8 +2,7 @@
 
 header{
     padding: 0px 0px;
-    display: flex;
-    flex-direction: row;
+    @include flex-row;
     align-items: center;
     justify-content: space-between;
     position: fixed;
@@ -18,12 +17,14 @@ header{
         text-decoration: none;
         margin: 0;
         padding: 0px 10vh;
-        display: flex;
-        flex-direction: row;
+        @include flex-row;
 
         li{
             padding: 0px 2vh;
-            color: map-get($colores, primario);
+            a{
+                color: map-get($colores, menu);
+            }
+            
         }
 
     }
@@ -38,5 +39,8 @@ header{
     width: 100%;
     display: flex;
     justify-content: end;
-    color: map-get($colores, primario);
+    a{
+        color: map-get($colores, primario);
+    }
+    
 }

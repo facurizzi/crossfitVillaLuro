@@ -11,9 +11,7 @@ footer{
     ul{
         list-style-type: none;
         text-decoration: none;
-        display: flex;
-        flex-direction: row;
-
+        @include flex-row;
         li{
             color: aqua;
         }

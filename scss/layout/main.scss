@@ -7,8 +7,7 @@ main{
 .main__imagen{
     padding: 16vh 0px 0 0;
     background-image: url(../imagenes/banner.jpg);
-    width: 100%;
-    height: auto;
+    @include tamaño(100%, auto);
     background-size: cover;
     background-repeat: no-repeat;
     @include flex-row-center;
@@ -23,24 +22,18 @@ main{
 .cuadro-principal{
     margin: 1vh;
     @include flex-column;
-    width: auto;
-    height: auto;
+    @include tamaño(auto, auto);
 }
 .cuadro-principal2{
     margin: 1vh;
-    @include flex-column;
-    width: 192vh;
-    height: auto;
-    align-items: center;
-
+    @include flex-column-aling-center;
+    @include tamaño(192vh, auto);
     ul{
         list-style-type: none;
     }
 }
-
 .link{
-    @include flex-column;
-    align-items: center;
+    @include flex-column-aling-center;
     justify-content: center;
     font-size: 20px;
 }
@@ -56,30 +49,24 @@ main{
 
 .segundaParte{
     background-image: url(../imagenes/banner2.jpg);
-    width: 100%;
-    height: auto;
+    @include tamaño(100%, auto);
     background-size: cover;
     background-repeat: no-repeat;
-    @include flex-column;
-    align-items: center;
+    @include flex-column-aling-center;
     font-size: 20px;
 }
 .segundaParte2{
     font-size: 15px;
     margin: 5px;
-    @include flex-column;
-    width: auto;
-    height: 200px;
-    align-items: center;
+    @include flex-column-aling-center;
+    @include tamaño(auto, 200px);
 }
 .actividades{
-    display: flex;
-    flex-direction: row;
+    @include flex-row;
 }
 .activi{
     margin: 10px 50px;
-    width: 400px;
-    height: 300px;
+    @include tamaño(400px,300px);
     overflow: hidden;
 }
 caption {
@@ -92,8 +79,7 @@ td {
   }
 .plan{
     margin: 20px;
-    display: flex;
-    flex-direction: row;
+    @include flex-row;
 }
 .campos{
     @include flex-column;
