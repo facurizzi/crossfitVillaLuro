@@ -50,6 +50,7 @@ header {
   top: 0;
   left: 0;
   width: 100%;
+  max-width: 100%;
   grid-area: header;
 }
 header ul {
@@ -103,6 +104,11 @@ main {
 }
 .main__imagen h1 {
   font-size: 4vh;
+}
+
+.container-fluid {
+  padding-left: 0;
+  padding-right: 0;
 }
 
 .cuadro-principal {
