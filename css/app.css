@@ -83,6 +83,10 @@ header ul li a {
   color: aqua;
 }
 
+.navbar-toggler-icon {
+  background-color: gray;
+}
+
 main {
   grid-area: main;
   margin: 0;
